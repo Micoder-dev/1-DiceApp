@@ -24,6 +24,7 @@
     </RelativeLayout>
 
     <Button
+        android:id="@+id/btnRollTheDice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Roll the Dice"
@@ -37,12 +38,14 @@
         android:gravity="center">
 
         <ImageView
+            android:id="@+id/imgDice1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:src="@drawable/dice1"
             android:layout_weight="50"/>
 
         <ImageView
+            android:id="@+id/imgDice2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:src="@drawable/dice2"
